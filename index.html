@@ -1,0 +1,22 @@
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <style>/* CSS for Buttons */button { touch-action: manipulation; position: relative; display: inline-block; cursor: pointer; outline: none; border: 0; vertical-align: middle; text-decoration: none; font-size: inherit; font-family: inherit; font-weight: 600; color: #382b22; text-transform: uppercase; padding: 1.25em 2em; background: #fff0f0; border: 2px solid #b18597; border-radius: 0.75em; transform-style: preserve-3d; transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), background 150ms cubic-bezier(0, 0, 0.58, 1); margin: 0 5px;  /* Add space between buttons */ } button::before { position: absolute; content: ""; width: 100%; height: 100%; top: 0; left: 0; right: 0; bottom: 0; background: #f9c4d2; border-radius: inherit; box-shadow: 0 0 0 2px #b18597, 0 0.625em 0 0 #ffe3e2; transform: translate3d(0, 0.75em, -1em); transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), box-shadow 150ms cubic-bezier(0, 0, 0.58, 1); } button:hover { background: #ffe9e9; transform: translate(0, 0.25em); } button:hover::before { box-shadow: 0 0 0 2px #b18597, 0 0.5em 0 0 #ffe3e2; transform: translate3d(0, 0.5em, -1em); } button:active { background: #ffe9e9; transform: translate(0em, 0.75em); } button:active::before { box-shadow: 0 0 0 2px #b18597, 0 0 #ffe3e2; transform: translate3d(0, 0, -1em); } /* CSS for iframe */iframe { width: 100%; height: 100vh; background-color: white;  /* White background */ border: none;  /* Remove iframe border */ } /* CSS for flexbox container */.button-container { display: flex; flex-direction: row-reverse;  /* Arrange buttons from right to left */ justify-content: center;  /* Center buttons horizontally */ margin-bottom: 20px;  /* Add margin at the bottom for space */ }</style>         
+    </head>     
+    <body style="background-color: white;"> 
+        <div class="button-container"> 
+            <button onClick="document.getElementById('iFrame').src = 'VIP1.html'">مكتبة التصميمات الجاهزة للتعديل عالية الجودة[VIP]</button>             
+            <button onClick="document.getElementById('iFrame').src = 'VIP2.html'">  مكتبة الكورسات التعليمية المدفوعة[VIP]</button>             
+            <button onClick="document.getElementById('iFrame').src = 'VIP3.html'">مكتبة درايف  تصميمات الليزر كت  [Vip]</button>             
+            <button onClick="document.getElementById('iFrame').src = 'VIP4.html'">مكتبة بلوكات ونماذج الثري دي ماكس [Vip]</button>             
+            <button onClick="document.getElementById('iFrame').src = 'VIP5.html'">مكتبة برامج التصميم المفعلة دائماَ [Vip]</button>             
+            <button onClick="document.getElementById('iFrame').src = 'VIP6.html'"> مكتبة الصور وعناصر التصميم [VIP]</button>             
+            <button onClick="document.getElementById('iFrame').src = 'VIP7.html'"> مكتبة صناعة المحتوى والمونتاج [VFX+Vip]</button>             
+            <button onClick="document.getElementById('iFrame').src = 'VIP8.html'"> جميع محتويات الباقة الأساسية [Basic]</button>             
+        </div>         
+        <iframe id="iFrame" src="VIP1.html"></iframe>         
+        <!-- Load VIP1.html by default -->         
+    </body>     
+</html>
+```
+
